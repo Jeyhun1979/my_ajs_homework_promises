@@ -1,0 +1,41 @@
+{
+  "name": "my_ajs_homework_promises",
+  "version": "1.0.0",
+  "description": "[![CI Pipeline](https://github.com/Jeyhun1979/my_ajs_homework_promises/actions/workflows/main.yml/badge.svg)](https://github.com/Jeyhun1979/my_ajs_homework_promises/actions/workflows/main.yml)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyhun1979/my_ajs_homework_promises.git"
+  },
+  "author": "Jeyhun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyhun1979/my_ajs_homework_promises/issues"
+  },
+  "homepage": "https://github.com/Jeyhun1979/my_ajs_homework_promises#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@eslint/js": "^9.39.1",
+    "babel-jest": "^30.2.0",
+    "babel-loader": "^10.0.0",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "jest": "^30.2.0",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.46.0"
+  }
+}
